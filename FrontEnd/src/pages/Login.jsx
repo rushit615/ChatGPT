@@ -21,7 +21,7 @@ const Login = () => {
 
         console.log(form);
 
-        axios.post("https://chatgpt-full-stack-chatgpt.onrender.com/api/auth/login", {
+        axios.post("https://chatgpt-0tnb.onrender.com/api/auth/login", {
             email: form.email,
             password: form.password
         },
